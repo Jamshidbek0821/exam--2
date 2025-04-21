@@ -1,0 +1,245 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v22-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/poppins-v22-latin-600.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/poppins-v22-latin-700.woff2') format('woff2');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.containers {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.bg-img {
+  background-image: url(../images/Bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.process-bg-img {
+  background-image: url(../images/bg-img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.input {
+  box-shadow: 0px 1px 2px 0px #00000040;
+}
+
+.shadov {
+  box-shadow: 0px 2px 8px 0px #00000040;
+
+}
+
+@media (max-width:640px) {
+  .site-header {
+    box-shadow: 0px -2px 8px 0px #00000040;
+  }
+}
+
+@media (max-width:640px) {
+  .bg-img {
+    background-image: url(../images/mobile-bg.png);
+  }
+}
+
+@media (max-width:640px) {
+  .process-bg-img {
+    background-image: url(../images/mobile-bgg.png);
+  }
+}
+
+body {
+  background-color: white;
+  color: black;
+  transition: background 0.3s ease;
+}
+
+.dark-mode {
+  background-color: #22343D;
+  color: white;
+}
+
+/* Headerdagi elementlar */
+.dark-mode header strong,
+.dark-mode header a,
+.dark-mode header button,
+.dark-mode header svg {
+  color: white !important;
+  fill: white !important;
+}
+
+.dark-mode header button {
+  background-color: #22343D;
+  border-color: #444;
+}
+
+.dark-mode .dark-strong {
+  color: white;
+}
+
+.dark-mode {
+  color: #1F2E35;
+}
+
+.dark-mode .header-btn:hover {
+  background-color: #02897A;
+  color: white;
+}
+.dark-mode .ddd {
+  color: white;
+}
+
+.dark-mode {
+  background-color: #22343D;
+  color: #ffffff;
+}
+
+.dark-mode .pppp {
+  color: black !important;
+}
+
+.dark-mode .dark-h3 {
+  color: #22343D !important
+}
+
+.dark-mode .dark-span {
+  color: #22343D !important
+}
+
+.dark-mode .pp {
+  color: #22343D !important
+}
+
+.dark-mode .pp:hover {
+  color: white !important
+}
+.dark-mode .bg:hover .pp {
+  color: white !important
+}
+.dark-mode .bg:hover .text {
+  color: white !important
+}
+.dark-mode .dark-ll {
+  background-color: white;
+}
+.dark-mode .bg:hover .color-p {
+  color: white !important
+}
+.dark-mode .bg:hover .btn-color {
+  background-color:white !important
+}
+.dark-mode .bg:hover .btn-color {
+  color: #02897A !important
+}
+.dark-mode .btn-color {
+  background-color: #02897A !important;
+}
+.dark-mode .btn-color {
+  color: #FFFFFF !important;
+}
+.dark-mode .color {
+  color: #AFAFAF !important
+}
+.dark-mode .color-p {
+  color: #22343D !important
+}
+.dark-mode .get-btn:hover {
+  border-color: white !important;
+  background-color: #22343D !important;
+  color: white !important
+}
+.dark-mode .footer-p {
+  color: white !important
+}
+.dark-mode .input {
+  color: black !important
+}
+.dark-mode .text {
+  color: #02897A !important
+}
+
+.dark-mode .footer-color {
+  color: white !important
+}
+.dark-mode section h2 {
+  color: #ffffff !important;
+}
+
+.dark-mode section h3 {
+  color: #ffffff !important;
+}
+
+.dark-mode section span {
+  color: #ffffff !important;
+}
+.dark-mode .bg-img {
+  background-image: url(../images/bg-img6.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.dark-mode .process-bg-img {
+  background-image: url(../images/bg-img5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.dark-mode section p {
+  color: #FFFFFF !important;
+}
+
+.dark-mode section button {
+  background-color: #ffffff !important;
+  color: #02897A !important;
+  border: 1px solid #02897A !important;
+}
+
+.dark-mode section button:hover {
+  background-color: #02897A !important;
+  color: #ffffff !important;
+}
+
+.dark-mode section a {
+  color: #FFFFFF !important;
+}
+
+.dark-mode section a p {
+  border-color: #FFFFFF !important;
+}
+
+.dark-mode footer p {
+  color: #ffffff !important;
+}
+
+.dark-mode footer strong {
+  color: #ffffff !important;
+}
