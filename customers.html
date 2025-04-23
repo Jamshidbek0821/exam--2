@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Customers page</title>
+    <style type="text/tailwindcss">
+        @layer utilities {
+			}
+		</style>
+</head>
+<body>
+    <header class="site-header pb-[17px] md:pb-[0px]">
+        <div class="containers flex pt-[24px] xl:pb-[17px] justify-between ">
+            <div class="flex gap-[16px]">
+                <a href="#">
+                    <img class="pt-[5px]" src="./images/header-logo-img2.svg" alt="Logo" width="40" height="36">
+                </a>
+                <strong class="text-[#173A56] font-bold text-[30px] leading-[28px] mt-[10px] product">Product</strong>
+            </div>
+            <div class="flex gap-[24px]">
+                <nav class="pt-[10px] flex gap-[30px] hidden xl:flex">
+                    <a class="text-[#22343D] font-normal text-[18px] leading-[28px] hover:font-bold duration-300 relative group
+                    " href="./index.html" target="_blank">Product
+                        <span
+                            class="absolute left-0 bottom-[-10px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+
+                    </a>
+                    <a class="text-[#22343D] font-normal text-[18px] leading-[28px]  hover:font-bold duration-300 relative group"
+                        href="#" target="_blank">Customers
+                        <span
+                            class="absolute left-0 bottom-[-10px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                    </a>
+                    <a class="text-[#22343D] font-normal text-[18px] leading-[28px]  hover:font-bold duration-300 relative group"
+                        href="./pricing.html" target="_blank">Pricing
+                        <span
+                            class="absolute left-0 bottom-[-10px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                    </a>
+                    <a class="text-[#22343D] font-normal text-[18px] leading-[28px]  hover:font-bold duration-300 relative group"
+                        href="#" target="_blank">Resources
+                        <span
+                            class="absolute left-0 bottom-[-10px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                    </a>
+                </nav>
+                <div class="flex gap-[24px] xl:flex items-center">
+                    <button
+                        class="hidden lg:flex py-[10px]   px-[23px] border-[1px] border-[#BCD0E5] rounded-[4px] font-bold text-[16px] text-[#173A56] hover:bg-[#02897A] hover:text-[#FFFFFF]"
+                        type="submit">Sign
+                        In</button>
+                    <button
+                        class="hidden lg:flex py-[10px] header-btn px-[23px] border-[1px] border-[#BCD0E5] rounded-[4px] font-bold text-[16px] text-[#FFFFFF] bg-[#02897A] hover:bg-[#FFFFFF] hover:text-[#173A56]"
+                        type="submit">Sign
+                        In</button>
+                    <div class="flex gap-[10px]">
+                        <img class="lg:hidden" src="./images/menu.svg" alt="Menu icon" width="28" height="31">
+                        <button id="darkToggleBtn" class="rounded-full">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <rect width="32" height="32" rx="16" fill="white" />
+                                <path
+                                    d="M16 26C21.514 26 26 21.514 26 16C26 10.486 21.514 6 16 6C10.486 6 6 10.486 6 16C6 21.514 10.486 26 16 26Z"
+                                    fill="#02897A" />
+                                <path d="M23 16C23 12.134 19.865 9 16 9V23C19.865 23 23 19.866 23 16Z" fill="white" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="pb-[117px]">
+            <div class="containers">
+                <h2 class="text-center font-bold text-[#22343D] text-[40px] mt-[100px]">Our Clients</h2>
+                <div class="flex justify-center gap-[64px] mt-[50px]">
+                    <img src="./images/Vector.svg" alt="Airbnd" width="159" height="50">
+                    <img src="./images/Google-Logo.svg" alt="Google" width="146" height="50">
+                    <img src="./images/Microsoft-Logo.svg" alt="Microsoft" width="213" height="44">
+                    <img src="./images/FedEx-Logo.svg" alt="FedEx" width="140" height="42">
+                </div>
+            </div>
+        </section>
+        <section class="bg-[#F5F5F5] product-section">
+                 <div class="containers pt-[30px] pb-[68px]">
+                   <h2 class="text-center text-[#22343D] text-[34px] font-bold">Why Choose Product?</h2>
+                   <ul class="flex justify-between mt-[50px] gap-[30px]">
+                    <li class="w-[350px] border-[1px] text-center rounded-[10px] border-[#DEDEDE] transition-all duration-300 hover:shadow-2xl transform hover:scale-105 cursor-pointe">
+                        <img class="mx-auto mt-[32px]" src="./images/icon-img1.svg" alt="Icon" width="51" height="50">
+                        <h3 class="mt-[32px] text-[#22343D] text-[24px] font-bold leading-[33px]">Special Business</h3>
+                        <p class="mx-auto w-[270px] mt-[16px] mb-[34px] text-[#22343D] text-[16px] leading-[27px] font-normal">Product helps you see how many 
+                            more days you need to work 
+                            to reach your financial goal 
+                            for the month and year.</p>
+                    </li>
+                    <li class="w-[350px] border-[1px] text-center rounded-[10px]  border-[#DEDEDE] transition-all duration-300 hover:shadow-2xl transform hover:scale-105 cursor-pointe">
+                        <img class="mx-auto mt-[32px]" src="./images/icon-img2.svg" alt="Icon" width="51" height="50">
+                        <h3 class="mt-[32px] text-[#22343D] text-[24px] font-bold leading-[33px]">Special Business</h3>
+                        <p class="mx-auto w-[275px] mt-[16px] mb-[34px] text-[#22343D] text-[16px] leading-[27px] font-normal">Product helps you see how many 
+                            more days you need to work 
+                            to reach your financial goal 
+                            for the month and year.</p>
+                    </li>
+                    <li class="w-[350px] border-[1px] text-center rounded-[10px]  border-[#DEDEDE] transition-all duration-300 hover:shadow-2xl transform hover:scale-105 cursor-pointe">
+                        <img class="mx-auto mt-[32px]" src="./images/icon.svg" alt="Icon" width="51" height="50">
+                        <h3 class="mt-[32px] text-[#22343D] text-[24px] font-bold leading-[33px]" >Special Business</h3>
+                        <p class="mx-auto w-[275px] mt-[16px] text-center mb-[34px] text-[#22343D] text-[16px] leading-[27px] font-normal">Product helps you see how many 
+                            more days you need to work 
+                            to reach your financial goal 
+                            for the month and year.</p>
+                    </li>
+                   </ul>
+                 </div>
+        </section>
+        <section>
+            <div class="containers pt-[101px]">
+                <h2 class="text-center text-[#22343D] text-[34px] font-bold">How Product Work?</h2>
+                 <div class="flex justify-center gap-[89px] mt-[73px]">
+                    <img src="./images/mac1.png" alt="Mac" width="500" height="279">
+                    <div class="w-[438px] mt-[35px]">
+                     <strong class="text-[#22343D] text-[20px] font-medium">STEP 1</strong>
+                     <h3 class="font-semibold text-[24px] text-[#22343D] mt-[16px]">Apply for a product</h3>
+                     <p class="font-normal text-[16px] leading-[28px] text-[#22343D] mt-[16px]">Completing our easy step-by-step application form gives you access to multiple business with multiple products. We analyse your business through our proprietary credit analysis technology </p>
+                    </div>
+                 </div>
+
+                 <div class="flex flex-row-reverse justify-center gap-[76px] mt-[100px]">
+                    <img src="./images/mac2.png" alt="Mac" width="500" height="279">
+                    <div class="w-[445px] mt-[49px]">
+                     <strong class="text-[#22343D] text-[20px] font-medium">STEP 2</strong>
+                     <h3 class="font-semibold text-[24px] text-[#22343D] mt-[16px]">Pay fully refundable</h3>
+                     <p class="font-normal text-[16px] leading-[28px] text-[#22343D] mt-[16px]">Product will contactting you instantly to receive payment of the Application Fee. if no offer of product is available, your fee will be fully refunded. </p>
+                    </div>
+                 </div>
+
+                 <div class="flex justify-center gap-[88px] mt-[100px]">
+                    <img src="./images/mac3.png" alt="Mac" width="500" height="279">
+                    <div class="w-[445px] mt-[49px]">
+                     <strong class="text-[#22343D] text-[20px] font-medium">STEP 3</strong>
+                     <h3 class="font-semibold text-[24px] text-[#22343D] mt-[16px]">Completion</h3>
+                     <p class="font-normal text-[16px] leading-[28px] text-[#22343D] mt-[16px]">Product will continue to liase between borrower and manager to procees and complete a quick and efficient settlement</p>
+                    </div>
+                 </div>
+                 <div class="mt-[78px] text-center pb-[115px]">
+                 <button class="py-[11px] px-[18px] bg-[#02897A] text-[#FFFFFF] rounded-[8px] border-[2px] border-transparent hover:border-[#02897A] hover:bg-white hover:text-[#02897A]" type="submit">Get in touch with us</button>
+                </div>
+            </div>
+        </section>
+        <section class="bg-[#F5F5F5] product-section">
+            <div class="containers pt-[35px] pb-[45px]">
+             <h2 class="text-center font-bold text-[#22343D] text-[32px] w-[537px] mx-auto">Join thousand of other who have
+                already received offers</h2>
+                <div class="flex justify-center gap-[325px] mt-[93px]">
+                    <img src="./images/Image Placeholder1.svg" alt="icon" width="150" height="150">
+                    <img src="./images/Image Placeholder2.svg" alt="icon" width="150" height="150">
+                </div>
+                <ul class="flex justify-center gap-[227px]">
+                    <li class="text-center">
+                        <h3 class="mt-[27px] font-medium text-[24px] text-[#000000]">Business</h3>
+                        <p class="mt-[16px] font-normal text-[18px] leading-[32px] text-[#22343D]">Cash Flow</p>
+                        <p class="font-normal text-[18px] leading-[32px] text-[#22343D]">Asset Backed</p>
+                        <p class="font-normal text-[18px] leading-[32px] text-[#22343D]">Receivables Finance</p>
+                        <p class="mt-[12px] font-semibold text-[16px] text-[#000000] leading-[28px]">Find the best business product</p>
+                    </li>
+                    <li class="text-center">
+                        <h3 class="mt-[27px] font-medium text-[24px] text-[#000000]">Enterprise</h3>
+                        <p class="mt-[16px] font-normal text-[18px] leading-[32px] text-[#22343D]">Site Acquisition</p>
+                        <p class="font-normal text-[18px] leading-[32px] text-[#22343D]">Bridge </p>
+                        <p class="font-normal text-[18px] leading-[32px] text-[#22343D]">Development Financing</p>
+                        <p class="mt-[12px] font-semibold text-[16px] text-[#000000] leading-[28px]">Find the best business product</p>
+                    </li>
+                </ul>
+            </div>
+            </section>
+            <section class="bg-[#F5F5F5] bg-color">
+            <div class="containers [100px] xl:pt-[150px] pb-[150px]">
+                <div
+                    class="bg-[#02897A] rounded-[32px] max-w-[371px] xl:min-w-[920px] flex gap-[10px] mx-auto xl:flex-row flex-col">
+                    <div class="xl:pl-[51px] pt-[49px] pb-[56px]">
+                        <p
+                            class="text-[#FFFFFF] text-[32px] leading-[151%] max-w-[328px] xl:max-w-[500px] text-center xl:text-start mx-auto xl:mx-0">
+                            Join 100 Compannies who boost their
+                            business with Product</p>
+                        <div class="mt-[70px] text-center xl:text-start">
+                            <button
+                                class="pt-[13px] pb-[7px] px-[33px] bg-[#FFFFFF] get-btn text-[#02897A] font-semibold text-[20px] rounded-[8px] hover:bg-[#02897A] hover:text-white hover:border-[1px] hover:border-white border border-transparent"
+                                type="submit">Get This</button>
+                        </div>
+                    </div>
+                    <img src="./images/screen.png" alt="Img" width="351" height="331">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="pb-[56px] bg-[#F5F5F5] bg-color">
+        <div class="containers">
+            <div class=" flex justify-between xl:flex-row flex-col">
+                <div class="w-[163px] mx-auto xl:mx-0">
+                    <div class="flex gap-[16px]">
+                        <img src="./images/header-logo-img2.svg" alt="Footer logo" width="32" height="30">
+                        <p class="text-[#173A56] text-[30px] font-bold leading-[28px]">Product</p>
+                    </div>
+                    <div class="flex gap-[16px] mt-[25px] text-center xl:text-start">
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img src="./images/instagramm.svg" alt="Instagram" width="40" height="40"></a>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="./images/facebook.svg" alt="Facebook" width="40" height="40"></a>
+                        <a href="https://twitter.com" target="_blank">
+                            <img src="./images/twiter.svg" alt="twiter" width="40" height="40"></a>
+                    </div>
+                </div>
+                <ul class="flex gap-[32px] xl:gap-[130px] xl:flex-row flex-col mt-[32px] xl:mt-[0px]">
+                    <li class="flex flex-col w-[118px]  mx-auto xl:mx-0">
+                        <strong
+                            class="font-medium text-[20px] leading-[30px] text-[#22343D] hover:font-bold duration-300 relative group">Resource
+                            <span
+                                class="absolute left-0 bottom-[-1px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                        </strong>
+                        <a class="text-[16px] font-normal leading-[35px] text-[#22343D] hover:font-bold duration-300 relative group footer-color"
+                            href="#">About Us
+                            <span
+                                class="absolute left-0 bottom-[-1px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                        </a>
+                        <a class="text-[16px] font-normal leading-[35px] text-[#22343D] hover:font-bold duration-300 relative group footer-color"
+                            href="#">Blog
+                            <span
+                                class="absolute left-0 bottom-[-1px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                        </a>
+                        <a class="text-[16px] font-normal leading-[35px] text-[#22343D] hover:font-bold duration-300 relative group footer-color"
+                            href="#">Contact
+                            <span
+                                class="absolute left-0 bottom-[-1px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                        </a>
+                        <a class="text-[16px] font-normal leading-[35px] text-[#22343D] hover:font-bold duration-300 relative group footer-color"
+                            href="#">FAQ
+                            <span
+                                class="absolute left-0 bottom-[-1px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                        </a>
+                    </li>
+                    <li class="flex flex-col w-[138px]  mx-auto xl:mx-0">
+                        <strong
+                            class="font-medium text-[20px] leading-[30px] text-[#22343D] hover:font-bold duration-300 relative group">Legal
+                            Stuff
+                            <span
+                                class="absolute left-0 bottom-[-1px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                        </strong>
+                        <a class="text-[16px] font-normal leading-[35px] text-[#22343D] hover:font-bold duration-300 relative group footer-color"
+                            href="#">Disclaimer
+                            <span
+                                class="absolute left-0 bottom-[-1px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                        </a>
+                        <a class="text-[16px] font-normal leading-[35px] text-[#22343D] hover:font-bold duration-300 relative group footer-color"
+                            href="#">Financing
+                            <span
+                                class="absolute left-0 bottom-[-1px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                        </a>
+                        <a class="text-[16px] font-normal leading-[35px] text-[#22343D] hover:font-bold duration-300 relative group footer-color"
+                            href="#">Privacy Policy
+                            <span
+                                class="absolute left-0 bottom-[-1px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                        </a>
+                        <a class="text-[16px] font-normal leading-[35px] text-[#22343D] hover:font-bold duration-300 relative group footer-color"
+                            href="#">Terms of Service
+                            <span
+                                class="absolute left-0 bottom-[-1px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="flex flex-col w-[325px] mt-[32px] xl:mt-[0px] mx-auto xl:mx-0">
+                    <p class="w-[280px] font-medium text-[20px] text-[#22343D] leading-[30px]  mx-auto xl:mx-0">knowing
+                        you're always on
+                        the best energy deal. </p>
+                    <form class="mt-[34px]" action="https://echo.htmlacademy.ru" method="post" autocomplete="off">
+                        <input
+                            class="py-[10px] pl-[15px] pr-[125px] border-[1px] border-[#BCD0E5] outline-none input rounded-[4px]"
+                            required name="name" type="text" aria-label="Enter your name">
+                        <div class="text-center xl:text-start">
+                            <button type="submit"
+                                class="bg-[#02897A] rounded-[4px] py-[8px] px-[15px] font-bold text-[16px] text-[#FFFFFF] mt-[21px] hover:bg-white hover:text-[#02897A] border border-transparent hover:border-[#02897A] hover:border-[1px]">Sign
+                                up Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="containers">
+            <p class="text-center text-[16px] text-[#22343D] mt-[10px] footer-p leading-[30px] font-normal">Made With
+                Love By Figmaland All Right Reserved </p>
+        </div>
+    </footer>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {},
+            },
+        }
+    </script>
+    <script>
+        const toggleBtn = document.getElementById("darkToggleBtn");
+        toggleBtn.addEventListener("click", () => {
+            document.body.classList.toggle("dark-mode");
+        });
+    </script>
+</body>
+</html>

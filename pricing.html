@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Pricing page</title>
+    <style type="text/tailwindcss">
+        @layer utilities {
+			}
+		</style>
+</head>
+<body>
+    <header class="site-header pb-[17px] md:pb-[0px]">
+        <div class="containers flex pt-[24px] xl:pb-[17px] justify-between ">
+            <div class="flex gap-[16px]">
+                <a href="#">
+                    <img class="pt-[5px]" src="./images/header-logo-img2.svg" alt="Logo" width="40" height="36">
+                </a>
+                <strong class="text-[#173A56] font-bold text-[30px] leading-[28px] mt-[10px] product">Product</strong>
+            </div>
+            <div class="flex gap-[24px]">
+                <nav class="pt-[10px] flex gap-[30px] hidden xl:flex">
+                    <a class="text-[#22343D] font-normal text-[18px] leading-[28px] hover:font-bold duration-300 relative group
+                    " href="./index.html" target="_blank">Product
+                        <span
+                            class="absolute left-0 bottom-[-10px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+
+                    </a>
+                    <a class="text-[#22343D] font-normal text-[18px] leading-[28px]  hover:font-bold duration-300 relative group"
+                        href="./customers.html" target="_blank">Customers
+                        <span
+                            class="absolute left-0 bottom-[-10px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                    </a>
+                    <a class="text-[#22343D] font-normal text-[18px] leading-[28px]  hover:font-bold duration-300 relative group"
+                        href="#" target="_blank">Pricing
+                        <span
+                            class="absolute left-0 bottom-[-10px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                    </a>
+                    <a class="text-[#22343D] font-normal text-[18px] leading-[28px]  hover:font-bold duration-300 relative group"
+                        href="#" target="_blank">Resources
+                        <span
+                            class="absolute left-0 bottom-[-10px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                    </a>
+                </nav>
+                <div class="flex gap-[24px] xl:flex items-center">
+                    <button
+                        class="hidden lg:flex py-[10px]   px-[23px] border-[1px] border-[#BCD0E5] rounded-[4px] font-bold text-[16px] text-[#173A56] hover:bg-[#02897A] hover:text-[#FFFFFF]"
+                        type="submit">Sign
+                        In</button>
+                    <button
+                        class="hidden lg:flex py-[10px] header-btn px-[23px] border-[1px] border-[#BCD0E5] rounded-[4px] font-bold text-[16px] text-[#FFFFFF] bg-[#02897A] hover:bg-[#FFFFFF] hover:text-[#173A56]"
+                        type="submit">Sign
+                        In</button>
+                    <div class="flex gap-[10px]">
+                        <img class="lg:hidden" src="./images/menu.svg" alt="Menu icon" width="28" height="31">
+                        <button id="darkToggleBtn" class="rounded-full">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <rect width="32" height="32" rx="16" fill="white" />
+                                <path
+                                    d="M16 26C21.514 26 26 21.514 26 16C26 10.486 21.514 6 16 6C10.486 6 6 10.486 6 16C6 21.514 10.486 26 16 26Z"
+                                    fill="#02897A" />
+                                <path d="M23 16C23 12.134 19.865 9 16 9V23C19.865 23 23 19.866 23 16Z" fill="white" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="containers pt-[50px] pb-[150px]">
+                <p class="text-center font-semibold text-[#22343D] text-[24px]">Price Table</p>
+                <h2 class="text-center font-bold text-[#22343D] text-[40px] mt-[32px]">Let’s get some real work done here.</h2>
+                <p class="text-center text-[#22343D] font-medium text-[16px] mt-[16px]">Prodict is your perfect solution for working. Get started now for free</p>
+                <div class="mt-[50px] flex gap-[70px] xl:flex-row flex-col">
+                    <div
+                        class="rounded-[8px] border-[1px] shadov w-[323px] bg-white hover:bg-[#02897A] bg hover:text-white transition-all duration-300 hover:shadow-2xl transform hover:scale-105 cursor-pointer group  mx-auto xl:mx-0">
+                        <h3
+                            class="text-center mt-[24px] font-bold text-[24px] leading-[40px] text-[#22343D] group-hover:text-white">
+                            Free</h3>
+                        <p
+                            class="text-center mt-[8px] font-normal text-[16px] leading-[40px] text-[#22343D ] group-hover:text-white pp">
+                            Brief
+                            price description</p>
+                        <div class="flex gap-2 w-[154px] mx-auto mt-[16px]">
+                            <p class="font-bold text-[76px] text-[#02897A] group-hover:text-white text">0</p>
+                            <div class="flex flex-col gap-[4px] mt-[30px]">
+                                <span
+                                    class="font-bold text-[24px] leading-[30px] text-[#02897A] group-hover:text-white text">$</span>
+                                <span
+                                    class="font-normal text-[16px] leading-[19px] text-[#AFAFAF] group-hover:text-[#E0E0E0]  color">Per
+                                    / month</span>
+                            </div>
+                        </div>
+                        <div class="text-center mt-[16px]">
+                            <p
+                                class="font-medium mt-[16px] text-[16px] leading-[22px] text-[#22343D] group-hover:text-white color-p">
+                                Only 2 Operators
+                            </p>
+                            <p
+                                class="font-medium mt-[16px] text-[16px] leading-[22px] text-[#22343D] group-hover:text-white color-p">
+                                Notifications</p>
+                            <p
+                                class="font-medium mt-[16px] text-[16px] leading-[22px] text-[#22343D] group-hover:text-white color-p">
+                                Landing Pages</p>
+                        </div>
+                        <div class="text-center mt-[38px] mb-[32px]">
+                            <button
+                                class="py-[11px] px-[19px] border border-transparent rounded-[8px] font-semibold text-[18px]  bg-[#02897A] font-bold text-white group-hover:bg-white group-hover:text-[#02897A] transition-all duration-300 btn-color"
+                                type="submit">Order Now</button>
+                        </div>
+                    </div>
+
+                    <div
+                        class="rounded-[8px] border-[1px] bg shadov w-[323px] bg-white hover:bg-[#02897A] hover:text-white transition-all duration-300 hover:shadow-2xl transform hover:scale-105 cursor-pointer group  mx-auto xl:mx-0">
+                        <h3
+                            class="text-center mt-[24px] font-bold text-[24px] leading-[40px] text-[#22343D] group-hover:text-white">
+                            Standard</h3>
+                        <p
+                            class="text-center mt-[8px] font-normal text-[16px] leading-[40px] text-[#22343D] group-hover:text-white pp">
+                            Brief price description</p>
+                        <div class="flex gap-2 w-[154px] mx-auto mt-[16px]">
+                            <p class="font-bold text-[76px] text-[#02897A] group-hover:text-white text">5</p>
+                            <div class="flex flex-col gap-[4px] mt-[30px]">
+                                <span
+                                    class="font-bold text-[24px] leading-[30px] text-[#02897A] group-hover:text-white text">$</span>
+                                <span
+                                    class="font-normal text-[16px] leading-[19px] text-[#AFAFAF] group-hover:text-[#E0E0E0]  color">Per
+                                    / month</span>
+                            </div>
+                        </div>
+                        <div class="text-center mt-[16px]">
+                            <p
+                                class="font-medium mt-[16px] text-[16px] leading-[22px] text-[#22343D] group-hover:text-white color-p">
+                                5+ Operators
+                            </p>
+                            <p
+                                class="font-medium mt-[16px] text-[16px] leading-[22px] text-[#22343D] group-hover:text-white color-p">
+                                Notifications</p>
+                            <p
+                                class="font-medium mt-[16px] text-[16px] leading-[22px] text-[#22343D] group-hover:text-white color-p">
+                                Landing Pages</p>
+                        </div>
+                        <div class="text-center mt-[38px] mb-[32px]">
+                            <button
+                                class="py-[11px] px-[19px] border btn-color border-transparent rounded-[8px] font-semibold text-[18px]  bg-[#02897A] font-bold text-white group-hover:bg-white group-hover:text-[#02897A] transition-all duration-300 "
+                                type="submit">Order Now</button>
+                        </div>
+                    </div>
+
+                    <div
+                        class="rounded-[8px] border-[1px] bg shadov w-[323px] bg-white hover:bg-[#02897A] hover:text-white transition-all duration-300 hover:shadow-2xl transform hover:scale-105 cursor-pointer group  mx-auto xl:mx-0">
+                        <h3
+                            class="text-center mt-[24px] font-bold text-[24px] leading-[40px] group-hover:text-white text-[#22343D]">
+                            Premium</h3>
+                        <p
+                            class="text-center mt-[8px] font-normal text-[16px] leading-[40px] group-hover:text-white text-[#22343D] pp">
+                            Brief
+                            price description</p>
+                        <div class="flex gap-2 w-[200px] mx-auto mt-[16px]">
+                            <p class="font-bold text-[76px] text-[#02897A] group-hover:text-white text">10</p>
+                            <div class="flex flex-col gap-[4px] mt-[30px]">
+                                <span
+                                    class="font-bold text-[24px] leading-[30px] text-[#02897A] group-hover:text-white text">$</span>
+                                <span
+                                    class="font-normal text-[16px] leading-[19px] text-[#AFAFAF] group-hover:text-[#E0E0E0] color">Per
+                                    / month</span>
+                            </div>
+                        </div>
+                        <div class="text-center mt-[16px]">
+                            <p
+                                class="font-medium mt-[16px] text-[16px] leading-[22px] text-[#22343D] group-hover:text-white color-p">
+                                10+ Operators
+                            </p>
+                            <p
+                                class="font-medium mt-[16px] text-[16px] leading-[22px] text-[#22343D] group-hover:text-white color-p">
+                                Notifications</p>
+                            <p
+                                class="font-medium mt-[16px] text-[16px] leading-[22px] text-[#22343D] group-hover:text-white color-p">
+                                Landing Pages</p>
+                        </div>
+                        <div class="text-center mt-[38px]">
+                            <button
+                                class="py-[11px] border btn-color border-transparent px-[19px] text-[18px] bg-[#02897A] font-bold text-white group-hover:bg-white group-hover:text-[#02897A] transition-all duration-300 rounded-[8px]"
+                                type="submit">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-[#F5F5F5] pricing-bg">
+            <div class="containers pt-[53px] pb-[51px]">
+                <div class="text-center">
+                 <h2 class="font-semibold text-[24px] text-[#22343D]">ENTERPRISE</h2>
+                 <p class="mt-[16px] text-[#22343D] text-[34px] font-bold">Are you interested  in a custom-tailored plan?</p>
+                 <p class="mt-[8px] font-normal text-[#22343D] text-[18px]">Product is a set of advanced features for really large teams with projects.</p>
+                </div>
+                 <div class="text-center mt-[32px]">
+                    <button type="submit" class="py-[11px] px-[18px] text-[#FFFFFF] bg-[#02897A] rounded-[8px] font-semibold text-[18px] hover:bg-white hover:text-[#02897A] border-[2px] hover:border-[#02897A]">Get in touch with us</button>
+                 </div>
+            </div>
+        </section>
+        <section>
+            <div class="containers pt-[150px]">
+              <h2 class="text-center font-bold text-[#22343D] text-[34px]">Product is being used with great effects alongside:</h2>
+              <div class="flex justify-between gap-[60px] mt-[56px]">
+                <img class="mt-[24px]" src="./images/picture.png" alt="Picture" width="528" height="392">
+                <div class="flex flex-col">
+                 <div class="w-[543px]">
+                    <div class="flex gap-[14px]">
+                    <img src="./images/icon1.svg" alt="icon" width="50" height="50">
+                    <h3 class="font-semibold mt-[7px] text-[24px] text-[#22343D]">Enterpreneur</h3>
+                    </div>
+                    <p class="mt-[16px] w-[533px] text-[#22343D] text-[16px] font-normal leading-[28px]">Product is a great way to help medium and samall enterprise owners achieve their goals</p>
+                 </div>
+                 <div class="w-[543px] mt-[32px]">
+                    <div class="flex gap-[14px]">
+                    <img src="./images/icon2.svg" alt="icon" width="50" height="50">
+                    <h3 class="font-semibold mt-[7px] text-[24px] text-[#22343D]">Accountants</h3>
+                    </div>
+                    <p class="mt-[16px] w-[533px] text-[#22343D] text-[16px] font-normal leading-[28px]">Whether you are working on contract with clients, or on other key accounting documents, Product is for you</p>
+                 </div>
+                 <div class="w-[543px] mt-[32px]">
+                    <div class="flex gap-[14px]">
+                    <img src="./images/icon3.svg" alt="icon" width="50" height="50">
+                    <h3 class="font-semibold mt-[7px] text-[24px] text-[#22343D]">Universities</h3>
+                    </div>
+                    <p class="mt-[16px] w-[533px] text-[#22343D] text-[16px] font-normal leading-[28px]">Organize university projects and have documents easily graded online with Product</p>
+                 </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <section>
+            <div class="containers pt-[150px]">
+                <div class="text-center">
+                <h2 class="text-[34px] text-[#22343D] font-bold">Frequently asked question</h2>
+                <p class="font-normal text-[18px] text-[#22343D] mt-[8px]">Something is not clear? You need help? Check our FAQ section</p>
+            </div>
+            <div class="mt-[50px] w-[920px]">
+                <div class="flex flex-col pl-[100px]">
+                    <div class="flex gap-[16px]">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 12C0 5.376 5.376 0 12 0C18.624 0 24 5.376 24 12C24 18.624 18.624 24 12 24C5.376 24 0 18.624 0 12ZM13.2 13.2H18V10.8H13.2V6H10.8V10.8H6V13.2H10.8V18H13.2V13.2Z" fill="#02897A"/>
+                    </svg>   
+                    <p class="font-medium   text-[18px] text-[#22343D]">What are my payment option?</p>  
+                </div>  
+                <hr class="mt-[22px]">                 
+                </div>
+                <div class="flex flex-col pl-[100px] mt-[16px]">
+                    <div class="flex gap-[16px]">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 12C0 5.376 5.376 0 12 0C18.624 0 24 5.376 24 12C24 18.624 18.624 24 12 24C5.376 24 0 18.624 0 12ZM6 13.2H18V10.8H6V13.2Z" fill="#02897A"/>
+                         </svg>                              
+                    <p class="font-medium   text-[18px] text-[#22343D]">How can I invite collaborator to platform?</p>  
+                </div> 
+                <p class="mt-[14px] text-[#22343D] text-[16px] font-normal">After creating your account you will have an oppurtunity to create your first project that will be associated withthe collaborators e-mail. An invitation  will be sent automatically. Then, invited user will have to confirm his account by e-mail and finish userd onboarding.</p> 
+                <hr class="mt-[24px]">                 
+                </div>
+                <div class="flex flex-col pl-[100px] mt-[16px]">
+                    <div class="flex gap-[16px]">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 12C0 5.376 5.376 0 12 0C18.624 0 24 5.376 24 12C24 18.624 18.624 24 12 24C5.376 24 0 18.624 0 12ZM13.2 13.2H18V10.8H13.2V6H10.8V10.8H6V13.2H10.8V18H13.2V13.2Z" fill="#02897A"/>
+                    </svg>   
+                    <p class="font-medium   text-[18px] text-[#22343D]">Can I upgrade my plan?</p>  
+                </div>  
+                <hr class="mt-[22px]">                 
+                </div>
+                <div class="flex flex-col pl-[100px] mt-[16px]">
+                    <div class="flex gap-[16px]">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 12C0 5.376 5.376 0 12 0C18.624 0 24 5.376 24 12C24 18.624 18.624 24 12 24C5.376 24 0 18.624 0 12ZM13.2 13.2H18V10.8H13.2V6H10.8V10.8H6V13.2H10.8V18H13.2V13.2Z" fill="#02897A"/>
+                    </svg>   
+                    <p class="font-medium text-[18px] text-[#22343D]">Can I cancel my plan at anytime?</p>  
+                </div>  
+                <hr class="mt-[22px]">                 
+                </div>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div class="containers [100px] xl:pt-[150px] pb-[150px]">
+                <div
+                    class="bg-[#02897A] rounded-[32px] max-w-[371px] xl:min-w-[920px] flex gap-[10px] mx-auto xl:flex-row flex-col">
+                    <div class="xl:pl-[51px] pt-[49px] pb-[56px]">
+                        <p
+                            class="text-[#FFFFFF] text-[32px] leading-[151%] max-w-[328px] xl:max-w-[500px] text-center xl:text-start mx-auto xl:mx-0">
+                            Join 100 Compannies who boost their
+                            business with Product</p>
+                        <div class="mt-[70px] text-center xl:text-start">
+                            <button
+                                class="pt-[13px] pb-[7px] px-[33px] bg-[#FFFFFF] get-btn text-[#02897A] font-semibold text-[20px] rounded-[8px] hover:bg-[#02897A] hover:text-white hover:border-[1px] hover:border-white border border-transparent"
+                                type="submit">Get This</button>
+                        </div>
+                    </div>
+                    <img src="./images/screen.png" alt="Img" width="351" height="331">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="pb-[56px]">
+        <div class="containers">
+            <div class=" flex justify-between xl:flex-row flex-col">
+                <div class="w-[163px] mx-auto xl:mx-0">
+                    <div class="flex gap-[16px]">
+                        <img src="./images/header-logo-img2.svg" alt="Footer logo" width="32" height="30">
+                        <p class="text-[#173A56] text-[30px] font-bold leading-[28px]">Product</p>
+                    </div>
+                    <div class="flex gap-[16px] mt-[25px] text-center xl:text-start">
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img src="./images/instagramm.svg" alt="Instagram" width="40" height="40"></a>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="./images/facebook.svg" alt="Facebook" width="40" height="40"></a>
+                        <a href="https://twitter.com" target="_blank">
+                            <img src="./images/twiter.svg" alt="twiter" width="40" height="40"></a>
+                    </div>
+                </div>
+                <ul class="flex gap-[32px] xl:gap-[130px] xl:flex-row flex-col mt-[32px] xl:mt-[0px]">
+                    <li class="flex flex-col w-[118px]  mx-auto xl:mx-0">
+                        <strong
+                            class="font-medium text-[20px] leading-[30px] text-[#22343D] hover:font-bold duration-300 relative group">Resource
+                            <span
+                                class="absolute left-0 bottom-[-1px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                        </strong>
+                        <a class="text-[16px] font-normal leading-[35px] text-[#22343D] hover:font-bold duration-300 relative group footer-color"
+                            href="#">About Us
+                            <span
+                                class="absolute left-0 bottom-[-1px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                        </a>
+                        <a class="text-[16px] font-normal leading-[35px] text-[#22343D] hover:font-bold duration-300 relative group footer-color"
+                            href="#">Blog
+                            <span
+                                class="absolute left-0 bottom-[-1px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                        </a>
+                        <a class="text-[16px] font-normal leading-[35px] text-[#22343D] hover:font-bold duration-300 relative group footer-color"
+                            href="#">Contact
+                            <span
+                                class="absolute left-0 bottom-[-1px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                        </a>
+                        <a class="text-[16px] font-normal leading-[35px] text-[#22343D] hover:font-bold duration-300 relative group footer-color"
+                            href="#">FAQ
+                            <span
+                                class="absolute left-0 bottom-[-1px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                        </a>
+                    </li>
+                    <li class="flex flex-col w-[138px]  mx-auto xl:mx-0">
+                        <strong
+                            class="font-medium text-[20px] leading-[30px] text-[#22343D] hover:font-bold duration-300 relative group">Legal
+                            Stuff
+                            <span
+                                class="absolute left-0 bottom-[-1px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                        </strong>
+                        <a class="text-[16px] font-normal leading-[35px] text-[#22343D] hover:font-bold duration-300 relative group footer-color"
+                            href="#">Disclaimer
+                            <span
+                                class="absolute left-0 bottom-[-1px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                        </a>
+                        <a class="text-[16px] font-normal leading-[35px] text-[#22343D] hover:font-bold duration-300 relative group footer-color"
+                            href="#">Financing
+                            <span
+                                class="absolute left-0 bottom-[-1px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                        </a>
+                        <a class="text-[16px] font-normal leading-[35px] text-[#22343D] hover:font-bold duration-300 relative group footer-color"
+                            href="#">Privacy Policy
+                            <span
+                                class="absolute left-0 bottom-[-1px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                        </a>
+                        <a class="text-[16px] font-normal leading-[35px] text-[#22343D] hover:font-bold duration-300 relative group footer-color"
+                            href="#">Terms of Service
+                            <span
+                                class="absolute left-0 bottom-[-1px] w-full h-[3px] bg-[#22343D] scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300 line"></span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="flex flex-col w-[325px] mt-[32px] xl:mt-[0px] mx-auto xl:mx-0">
+                    <p class="w-[280px] font-medium text-[20px] text-[#22343D] leading-[30px]  mx-auto xl:mx-0">knowing
+                        you're always on
+                        the best energy deal. </p>
+                    <form class="mt-[34px]" action="https://echo.htmlacademy.ru" method="post" autocomplete="off">
+                        <input
+                            class="py-[10px] pl-[15px] pr-[125px] border-[1px] border-[#BCD0E5] outline-none input rounded-[4px]"
+                            required name="name" type="text" aria-label="Enter your name">
+                        <div class="text-center xl:text-start">
+                            <button type="submit"
+                                class="bg-[#02897A] rounded-[4px] py-[8px] px-[15px] font-bold text-[16px] text-[#FFFFFF] mt-[21px] hover:bg-white hover:text-[#02897A] border border-transparent hover:border-[#02897A] hover:border-[1px]">Sign
+                                up Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="containers">
+            <p class="text-center text-[16px] text-[#22343D] mt-[10px] footer-p leading-[30px] font-normal">Made With
+                Love By Figmaland All Right Reserved </p>
+        </div>
+    </footer>
+    </main>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {},
+            },
+        }
+    </script>
+    <script>
+        const toggleBtn = document.getElementById("darkToggleBtn");
+        toggleBtn.addEventListener("click", () => {
+            document.body.classList.toggle("dark-mode");
+        });
+    </script>
+</body>
+</html>
